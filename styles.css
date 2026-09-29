@@ -1,2 +1,35 @@
+table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 660px;
+            font-family: Arial, sans-serif;
+        }
 
-/* Your CSS Code here. */
+        th,
+        td {
+            border: 1px solid #333;
+            padding: 4px 10px;
+            text-align: right;
+        }
+
+        thead th {
+            background-color: #b84a4a;
+            color: white;
+            text-align: left;
+        }
+
+        tbody tr:nth-child(1) {
+            background-color: #d99696;
+        }
+
+        tbody tr:nth-child(2) {
+            background-color: #efdcdc;
+        }
+
+        tbody tr:nth-child(3) {
+            background-color: #d9d9d9;
+        }
+
+        tbody td:first-child {
+            text-align: left;
+        }
